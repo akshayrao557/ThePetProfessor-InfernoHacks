@@ -1,0 +1,39 @@
+{
+  "id": "a332eefa-44b2-4c9f-873c-23b23ac3c235",
+  "parentId": "014e641c-4b81-4471-b0d4-4315ef5181e6",
+  "rootParentId": "826390c5-a762-4e12-be00-e979d3b137db",
+  "name": "Start PetCo - Q1 - correct - Q2 - wrong Q3 correct Q2",
+  "auto": true,
+  "contexts": [
+    "StartPetCo-Q1-correct-Q2-wrongQ3-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "StartPetCo.StartPetCo-custom.StartPetCo-Q1-correct-Q2-fallback.StartPetCo-Q1-correct-Q2-wrongQ3-custom",
+      "affectedContexts": [
+        {
+          "name": "StartPetCo-Q1-correct-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thats Correct! Which is the most popular dog food brand?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542478667,
+  "fallbackIntent": false,
+  "events": []
+}

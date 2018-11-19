@@ -1,0 +1,50 @@
+[
+  {
+    "id": "f1c0aa51-962b-47de-8c33-34f7ae1d706b",
+    "data": [
+      {
+        "text": "It\u0027s rabies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542443553
+  },
+  {
+    "id": "05bccaae-8f73-4adf-bd8d-7bad2a245df8",
+    "data": [
+      {
+        "text": "It is rabies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542443553
+  },
+  {
+    "id": "4b11c8f6-c946-495d-b2f6-c6be3dd7233e",
+    "data": [
+      {
+        "text": "That\u0027s rabies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542443553
+  },
+  {
+    "id": "aa3b7ab7-4f10-4b82-80c8-4c99bcf8791a",
+    "data": [
+      {
+        "text": "rabies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542443553
+  }
+]

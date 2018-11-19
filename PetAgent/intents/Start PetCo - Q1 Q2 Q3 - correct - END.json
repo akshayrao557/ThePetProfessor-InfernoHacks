@@ -1,0 +1,33 @@
+{
+  "id": "f964534b-7b9d-496c-9fcc-40c51c7a263a",
+  "parentId": "0d4cd97d-ee67-4e20-b8d6-5b5d25fcaf24",
+  "rootParentId": "826390c5-a762-4e12-be00-e979d3b137db",
+  "name": "Start PetCo - Q1 Q2 Q3 - correct - END",
+  "auto": true,
+  "contexts": [
+    "StartPetCo-Q1-correct-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "StartPetCo.StartPetCo-custom.StartPetCo-Q1-correct-yes.StartPetCo-Q1-correct-yes-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Rabies is correct! You have completed. Thank you.  Have a great day."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542475197,
+  "fallbackIntent": false,
+  "events": []
+}

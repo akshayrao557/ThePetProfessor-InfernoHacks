@@ -1,0 +1,48 @@
+{
+  "id": "c7065251-6df8-45d7-b236-1204fb4bfd5c",
+  "parentId": "56539e60-55fc-4b95-897b-86a10e18e1d6",
+  "rootParentId": "56539e60-55fc-4b95-897b-86a10e18e1d6",
+  "name": "Start PetCo - Q1 - wrong Q2 - correct Q1",
+  "auto": true,
+  "contexts": [
+    "StartPetCo-Q1-wrongQ2-followup",
+    "StartPetCo-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "StartPetCo-Q1-wrongQ2.StartPetCo-Q1-wrongQ2-custom",
+      "affectedContexts": [
+        {
+          "name": "StartPetCo-Q1-correct-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a17354a6-7b72-4be3-a639-beb233b27351",
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Correct, Which is the most common dog breed in USA?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542475022,
+  "fallbackIntent": false,
+  "events": []
+}

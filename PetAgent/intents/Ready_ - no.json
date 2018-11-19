@@ -1,0 +1,33 @@
+{
+  "id": "b765fe60-b938-4ba5-8173-394e3d843e24",
+  "parentId": "19734c4c-5129-4794-bcd7-169f5862d9ed",
+  "rootParentId": "19734c4c-5129-4794-bcd7-169f5862d9ed",
+  "name": "Ready? - no",
+  "auto": true,
+  "contexts": [
+    "Ready-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Ready.Ready-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Alright! Have a nice day"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542449029,
+  "fallbackIntent": false,
+  "events": []
+}

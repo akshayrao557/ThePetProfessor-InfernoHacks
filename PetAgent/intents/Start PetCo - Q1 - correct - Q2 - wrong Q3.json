@@ -1,0 +1,40 @@
+{
+  "id": "014e641c-4b81-4471-b0d4-4315ef5181e6",
+  "parentId": "b044fe39-e17c-4ac0-9780-956ecfbbe979",
+  "rootParentId": "826390c5-a762-4e12-be00-e979d3b137db",
+  "name": "Start PetCo - Q1 - correct - Q2 - wrong Q3",
+  "auto": false,
+  "contexts": [
+    "StartPetCo-Q1-correct-Q2-followup",
+    "StartPetCo-Q1-correct-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "StartPetCo.StartPetCo-custom.StartPetCo-Q1-correct-Q2-fallback",
+      "affectedContexts": [
+        {
+          "name": "StartPetCo-Q1-correct-Q2-wrongQ3-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Its wrong! What\u0027s the common vaccination for dogs?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542478334,
+  "fallbackIntent": true,
+  "events": []
+}

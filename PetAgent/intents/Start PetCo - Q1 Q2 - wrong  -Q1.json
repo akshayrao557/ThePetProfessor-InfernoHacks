@@ -1,0 +1,40 @@
+{
+  "id": "0cc7be26-4206-48b2-9c43-6b37e926ae63",
+  "parentId": "56539e60-55fc-4b95-897b-86a10e18e1d6",
+  "rootParentId": "56539e60-55fc-4b95-897b-86a10e18e1d6",
+  "name": "Start PetCo - Q1 Q2 - wrong  -Q1",
+  "auto": false,
+  "contexts": [
+    "StartPetCo-Q1-wrongQ2-followup",
+    "StartPetCo-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "StartPetCo-Q1-wrongQ2.StartPetCo-Q1-wrongQ2-fallback",
+      "affectedContexts": [
+        {
+          "name": "StartPetCo-Q1-correct-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thats wrong ! Which is the most common dog breed in USA?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542447958,
+  "fallbackIntent": true,
+  "events": []
+}
